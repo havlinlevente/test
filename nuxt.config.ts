@@ -2,5 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxt/content"],
-  target: 'static'
+
+  ssr: false,
+  build: {},
 });
